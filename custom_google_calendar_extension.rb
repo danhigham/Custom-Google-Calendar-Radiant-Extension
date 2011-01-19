@@ -7,7 +7,7 @@ class CustomGoogleCalendarExtension < Radiant::Extension
   url "http://yourwebsite.com/custom_google_calendar"
   
   extension_config do |config|
-  #  config.gem 'open-uri'
+    config.gem 'mechanize'
   #   config.after_initialize do
   #     run_something
   #   end
